@@ -1,8 +1,10 @@
 /datum/element/dusts_on_leaving_area
 	element_flags = ELEMENT_BESPOKE
-	argument_hash_start_idx = 2
-	var/list/area_types = list()
+	// TEST SERVER EDIT -- LET ME LEAVE
+	//argument_hash_start_idx = 2
+	//var/list/area_types = list()
 
+/*
 /datum/element/dusts_on_leaving_area/Attach(datum/target, types)
 	. = ..()
 
@@ -25,3 +27,4 @@
 
 	living_source.investigate_log("was dusted due to leaving their valid areas.", INVESTIGATE_DEATHS)
 	living_source.dust(TRUE, force = TRUE)
+*/

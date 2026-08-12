@@ -152,7 +152,7 @@ Always compile, always use that verb, and always make sure that it works for wha
 ///Z level traits for Away Missions
 #define ZTRAITS_AWAY list(ZTRAIT_AWAY = TRUE)
 ///Z level traits for Secret Away Missions
-#define ZTRAITS_AWAY_SECRET list(ZTRAIT_AWAY = TRUE, ZTRAIT_SECRET = TRUE, ZTRAIT_NOPHASE = TRUE)
+#define ZTRAITS_AWAY_SECRET list(ZTRAIT_AWAY = TRUE) // TEST SERVER EDIT -- NO SECRETS
 
 #define DL_NAME "name"
 #define DL_TRAITS "traits"

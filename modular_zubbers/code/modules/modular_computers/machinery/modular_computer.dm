@@ -4,6 +4,10 @@
 // Relies checking for the trait that's given by the spawner. If this ever changes, we'll need to update this.
 //
 //////
+
+// TEST SERVER EDIT -- LET ME PLAY MY GODDAMN MINESWEEPER!
+/*
+
 /obj/item/modular_computer/ui_interact(mob/user, datum/tgui/ui)
 	if(HAS_TRAIT_FROM(user, TRAIT_FREE_GHOST, TRAIT_GHOSTROLE))
 		if(ui)
@@ -11,3 +15,6 @@
 		balloon_alert(user, "ghost cafe visitors can't use this!")
 		return
 	return ..()
+
+
+*/

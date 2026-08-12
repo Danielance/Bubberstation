@@ -595,7 +595,7 @@ ADMIN_VERB(load_away_mission, R_FUN, "Load Away Mission", "Load a specific away 
 	var/datum/space_level/away_level
 	var/secret = FALSE
 	if(tgui_alert(user, "Do you want your mission secret? (This will prevent ghosts from looking at your map in any way other than through a living player's eyes.)", "Are you $$$ekret?", list("Yes", "No")) == "Yes")
-		secret = TRUE
+		secret = FALSE // TEST SERVER EDIT -- NO SECRETS
 	var/answer = input(user, "What kind?","Away") as null|anything in possible_options
 	switch(answer)
 		if("Custom")

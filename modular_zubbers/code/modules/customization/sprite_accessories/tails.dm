@@ -174,3 +174,13 @@
 	name = "Eastern Dragon"
 	icon_state = "easternd"
 	icon = 'modular_zubbers/icons/customization/tails.dmi'
+
+/datum/sprite_accessory/tails/mammal/wagging/eevee_alt_one
+	name = "Eevee (Alt 1)"
+	icon_state = "eeveeone"
+	icon = 'modular_zubbers/icons/customization/tails.dmi'
+
+/datum/sprite_accessory/tails/mammal/wagging/eevee_alt_two
+	name = "Eevee (Alt 2)"
+	icon_state = "eeveetwo"
+	icon = 'modular_zubbers/icons/customization/tails.dmi'
